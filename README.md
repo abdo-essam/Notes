@@ -13,12 +13,12 @@ Notes is a nimble note-taking application crafted using Kotlin and Android Archi
 - [Coroutines](https://developer.android.com/kotlin/coroutines) - Kotlin Coroutines are a language feature in the Kotlin programming language that simplifies asynchronous and concurrent programming.
 
 ## Screenshots
-<img src=  "https://github.com/abdo-essam/Notes/blob/master/Images/1.png" width = 150> 
-<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/2.png" width = 150> 
-<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/3.png" width = 150> 
-<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/4.png" width = 150>
-<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/5.png" width = 150> 
-<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/6.png" width = 150>
+<img src=  "https://github.com/abdo-essam/Notes/blob/master/Images/1.png" width = 230> 
+<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/2.png" width = 230> 
+<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/3.png" width = 230> 
+<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/4.png" width = 230>
+<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/5.png" width = 230> 
+<img src = "https://github.com/abdo-essam/Notes/blob/master/Images/6.png" width = 230>
 
 
 ## License
