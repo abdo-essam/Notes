@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notes.NewNoteFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="17dp"
+        android:id="@+id/actionContainer">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="21dp"
+            android:contentDescription="@string/back_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveNoteBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="21dp"
+            android:text="@string/save"
+            android:background="@drawable/custom_background_black"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_centerVertical="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteNoteBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:text="@string/delete"
+            android:background="@drawable/custom_background_red"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionContainer"
+        android:layout_marginTop="7dp"
+        android:padding="21dp">
+
+        <EditText
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:maxLines="2"
+            android:textColorHint="@color/light_grey"
+            android:textCursorDrawable="@drawable/text_cursor_drawable"
+            />
+
+        <TextView
+            android:id="@+id/noteTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noteTitle"
+            android:hint="@string/time"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/lato"
+            android:textSize="14sp"
+            android:textColor="@color/light_grey"
+            android:textColorHint="@color/light_grey"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/noteTime"
+            android:hint="@string/write_a_note"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/lato"
+            android:textSize="19sp"
+            android:gravity="top|left"
+            android:textColor="@color/white"
+            android:layout_marginTop="21dp"
+            android:inputType="textMultiLine"
+            android:textCursorDrawable="@drawable/text_cursor_drawable"
+            android:textColorHint="@color/light_grey"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
